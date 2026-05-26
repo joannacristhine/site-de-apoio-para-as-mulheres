@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de Analise</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .titulo {
+            color: rgb(28, 28, 171);
+            font-size: 30px;
+            font-style: normal;
+            display: flex;
+            align-items: center;
+
+        }
+
+        body {
+            background-color: rgb(153, 215, 245);
+        }
+
+        .barra {
+
+            background-color: rgb(14, 61, 161);
+            border-radius: 13px;
+            padding: 10px;
+            display: flex;
+            gap: 8px;
+            justify-content: space-between;
+
+
+        }
+
+
+        a {
+            color: aliceblue;
+            font-size: large;
+            text-decoration: none;
+            transition: 0.4s;
+        }
+
+        a:hover {
+            color: rgb(82, 174, 255);
+            font-size: large;
+            text-decoration: none;
+        }
+
+
+        .cartoes {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .cartao {
+            background-color: rgb(29, 150, 206);
+            padding: 20px;
+            width: 30%;
+            height: 500px;
+            border-radius: 10px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .titulocartao {
+            display: flex;
+            color: rgb(107, 203, 247);
+            border-radius: 10px;
+            background-color: rgb(14, 61, 161);
+            text-align: center;
+            height: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 70%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .conteudocartao {
+            text-align: justify;
+            height: 100px;
+            width: 90%;
+            justify-content: center;
+            align-items: center;
+            padding: 7%;
+
+        }
+        
+        .conteudocartao p {
+            color: rgb(255, 255, 255);
+            font-weight: 300%;
+            width: 100%;
+            justify-content: first baseline;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 120%;
+            
+        }
+
+        p {
+            color: aliceblue;
+            font-weight: 400%;
+            justify-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            align-items: flex-end;
+        }
+
+        .titulo img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .titulo h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+        }
+
+        h2 {
+            font-size: large;
+        }
+
+        h1 {
+            margin-top: 10px;
+        }
+
+        .rodape {
+            background-color: #074a7a98;
+            color: rgb(107, 203, 247);
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .conteudocartao img{
+            width: 410px;
+            border-radius: 4px;
+            margin-top: 20px;
+            align-items: center;
+        }
+        .conteudocartao a{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="titulo">
+            <img src="assets/sitemulher.png">
+            <h1>Portal de Apoio <br> á Mulher</h1>
+        </div>
+    
+        <div class="barra">
+            <a href="index.html">Página Inicial</a>
+            <a href="Localizacao.html">Localizações</a>
+            <a href="pecaAjuda.html">Peça Ajuda</a>
+        </div>
+    
+        <div class="cartoes">
+    
+            <div class="cartao">
+                <div class="titulocartao">
+                    <h2>Intuito do Site</h2>
+                </div>
+                
+                <div class="conteudocartao">
+                  <p style="text-indent: 30px;">Este portal foi criado para apoiar, informar e acolher mulheres em situações devulnerabilidade, <br> oferecendo conteúdos sobre direitos, segurança, saúde e canais de ajuda.</p>
+                </div>
+            </div>
+    
+            <div class="cartao">
+                <div class="titulocartao">
+                    <h2>Direito das Mulheres</h2>
+    
+                </div>
+
+                <div class="conteudocartao">
+
+                    <p style="text-indent: 30px;"><a href="https://nossacausa.com/2020/03/conquistas-do-feminismo-no-brasil-uma-linha-do-tempo/" target="_blank">Clique aqui</a> e conheça leis e direitos que protegem as mulheres, como a Lei Maria da Penha, medidas protetivas e canais de denúncia:</p>
+                    <img src="/projetoAnalise/assets/direito.png" alt="">
+                    
+
+                </div>
+
+                
+            </div>
+    
+            <div class="cartao">
+                <div class="titulocartao">
+                    <h2>Titulo da noticia</h2>
+    
+                </div>
+
+                <div class="conteudocartao">
+
+                    <p style="text-indent: 30px;"><a href=https://g1.globo.com/politica/noticia/2026/05/26/atlas-da-violencia-homicidios-de-mulheres-em-2024.ghtml target="_blank">Clique aqui</a> e veja a noticia</p>
+                    <img src="/projetoAnalise/assets/noticia.png" alt="">
+                    
+
+                </div>
+
+            </div>
+    
+        </div>
+    
+        <footer class="rodape">
+            <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>
